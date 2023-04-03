@@ -1,0 +1,21 @@
+---
+title: "Trent"
+output: html_document
+date: "2023-04-03"
+---
+
+**This is my first Markdown document.**
+
+*I'm going to load the mtcars dataset.*
+
+```{r}
+library(datasets)
+data(mtcars)
+summary(mtcars)
+```
+
+Here's a pairs plot of the data.
+
+```{r}
+pairs(mtcars)
+```
